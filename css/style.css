@@ -149,7 +149,7 @@ body{
 		font-weight: 600;
 	}
 	.red-pipe{
-		width: 100%;
+		width: 89%;
 		height: 6px;
 		background: red;
 		position: absolute;
@@ -171,41 +171,37 @@ body{
 		transform: translate(-50%, -50%);
 	}
 	.glass-box{
-	width: 100%;
-	height: 100%;
-	background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.4), rgba(255,255,255,0.1));
-	border-radius: 10px;
-	border: 0.5px solid rgba(255,255,255,0.2);
-	padding-left: 10px !important;
-	border: 2px solid red;
-	backdrop-filter: blur(2px);
-	overflow: hidden;
-
-}
-.details-holder{
-	margin-left: 10px;
-}
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.4), rgba(255,255,255,0.1));
+		border-radius: 10px;
+		border: 0.5px solid rgba(255,255,255,0.2);
+		padding-left: 10px !important;
+		backdrop-filter: blur(2px);
+		overflow: hidden;
+	}
+	.details-holder{
+		margin-left: 10px;
+	}
 	.details-holder h2.card-number{
-		color: #fff;
-		font-weight: 500;
 		font-size: 18px;
-		font-family: 'Poppins', sans-serif;
 		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
 	.details-holder .valid{
-		color: #fff;
-		font-family: 'Rubik', sans-serif;
-		text-transform: uppercase;
 		font-size: 9px;
 	}
 	.details-holder .card-expiry{
 		font-size: 18px;
 	}
 	.card-name{
-	font-size: 14px;
-}
+		font-size: 15px;
+		margin-top: 20px;
+	}
 	.red-pipe{
 		transform: rotate(-49deg);
+		width: 100%;
+		height: 6px;
+
 	}
 }
