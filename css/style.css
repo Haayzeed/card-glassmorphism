@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #0F1A5C;
+}
+.main{
+	width: 30%;
+	height: 250px;
+	/*border: 2px solid red;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.glass-box{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.4), rgba(255,255,255,0.1));
+	/*-webkit-backdrop-filter: blur(50px);*/
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.9);
+	padding: 20px;
+}
+.box-circle-one{
+	width: 250px;
+	height: 250px;
+	background: #433BDE;
+	border-radius: 50%;
+	position: absolute;
+	top: -55px;
+	left: -75px;
+	z-index: -1;
+}
+.box-circle-two{
+	width: 130px;
+	height: 130px;
+	background: #433BDE;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -30px;
+	right: -30px;
+	z-index: -1;
+
+}
+.logo img{
+	width: 130px;
+	height: 40px;
+	/*border: 2px solid red;*/
+}
+.details-holder{
+	margin-left: 20px;
+	/*border: 2px solid red;*/
+}
+.details-holder img{
+	width: 45px;
+	height: 35px;
+	margin-top: 10px;
+}
+.details-holder h2.card-number{
+	color: #fff;
+	font-weight: 500;
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.details-holder h2 span{
+	margin-right: 10px;
+}
+.details-holder .valid{
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.details-holder .card-expiry{
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+	font-size: 22px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.clearfix{
+	clear: both;
+}
+.card-name{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 15px;
+	font-family: 'Rubik', sans-serif;
+}
+.credit-card{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+.master-card{
+	position: absolute;
+	right: -10px;
+	bottom: -20px;
+}
+.master-card img{
+	width: 120px;
+	height: 120px;
+}
+.red-pipe{
+	width: 95%;
+	height: 6px;
+	background: red;
+	position: absolute;
+	transform: rotate(-39deg);
+	transform-origin: bottom left;
+	bottom: 2px;
+	left: 5px;
+	z-index: -1;
+}
