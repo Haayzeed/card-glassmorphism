@@ -5,6 +5,7 @@
 }
 body{
 	background-color: #0F1A5C;
+	overflow: hidden;
 }
 .main{
 	width: 30%;
@@ -106,7 +107,7 @@ body{
 	height: 120px;
 }
 .red-pipe{
-	width: 95%;
+	width: 105%;
 	height: 6px;
 	background: red;
 	position: absolute;
@@ -117,6 +118,42 @@ body{
 	z-index: -1;
 	border-radius: 10px;
 	overflow: hidden;
+}
+@media(max-width: 1920px){
+	.red-pipe{
+		width: 68%;
+		height: 6px;
+		background: red;
+		position: absolute;
+		transform: rotate(-38.6deg);
+	}
+}
+@media(max-width: 1680px){
+	.red-pipe{
+		width: 78%;
+		height: 6px;
+		background: red;
+		position: absolute;
+		transform: rotate(-38.6deg);
+	}
+}
+@media(max-width: 1440px){
+	.red-pipe{
+		width: 90%;
+		height: 6px;
+		background: red;
+		position: absolute;
+		transform: rotate(-38.6deg);
+	}
+}
+@media(max-width: 1366px){
+	.red-pipe{
+		width: 95%;
+		height: 6px;
+		background: red;
+		position: absolute;
+		transform: rotate(-38.6deg);
+	}
 }
 @media(max-width: 576px){
 	.main{
